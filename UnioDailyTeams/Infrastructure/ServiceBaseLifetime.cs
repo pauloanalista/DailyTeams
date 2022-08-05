@@ -8,7 +8,7 @@ namespace UnioDailyTeams.Infrastructure
 {
     public class ServiceBaseLifetime : ServiceControl
     {
-        TeamsNotificationClient _client = new TeamsNotificationClient("https://uniosolucoestecnologia.webhook.office.com/webhookb2/b320a924-1180-443f-9a0f-c3456d723331@29600058-6b0a-4b65-9f5f-093c0959a810/IncomingWebhook/cc1144e1c8594e2cbb0966e994ddd3cf/15aa2b0b-56b0-49d2-b8f3-30452d14ea24");
+        TeamsNotificationClient _client = new TeamsNotificationClient("seu webhook aqui");
         public bool Start(HostControl hostControl)
         {
 
